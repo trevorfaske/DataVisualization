@@ -1,9 +1,9 @@
-#### DataVis-ggplot-follow.R
+#### Intro_ggplot2_follow.R
 #### author: Trevor Faske
-#### date modified: 03/16/2021
+#### date modified: 04/06/2021
 
-#This is a follow along for DataVis-ggplot-primer located:
-#https://github.com/juliema/Data_Science_For_Biology_II/tree/Spring_21/Part.3_DataVisualization/1-ggplot
+# This is a follow along for Intro_ggplot2.ipynb located:
+# https://github.com/trevorfaske/DataVisualization
 
 #install packages
 install.packages(c('tidyverse','ggforce','ggsci','patchwork','Hmisc'))
@@ -17,8 +17,7 @@ library(Hmisc)
 
 #set working directory
 #CHANGE TO YOURS
-#setwd('~/g/DataScience/Data_Science_For_Biology_II/Part.3_DataVisualization/1-ggplot')
-setwd('~/g/Classes/DataScience/data_vis/')
+setwd('~/g/projects/DataVis/github/')
 
 #read in dataset
 city_df <- read.csv('city_df.csv')
@@ -449,5 +448,6 @@ temp_plot + ppt_plot
 #### remember, this is the same exact data showing mostly the same thing ####
 
 worst_plot + temp_plot + ppt_plot
+
 
 
