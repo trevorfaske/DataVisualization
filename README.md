@@ -1,4 +1,4 @@
-# Data Visualizaiton
+# Data Visualization
 
 Data visualization is a key component to any scientific journal or popular science article. Being able to tell a compelling story using just the data at hand should be the goal of any figure. 
 
